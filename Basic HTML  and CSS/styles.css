@@ -1,0 +1,61 @@
+/* External css is used to implement our css over all our websites
+ This is our stylesheet */
+
+/*
+Css syntax :
+selector{property:value}
+*/
+
+ 
+body{
+    background-color: lightgray;
+    color: white;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    height: 0px; 
+    width: 5%;
+}
+
+h3{
+    color: rgb(0, 40, 0);
+}
+
+li{
+    color: rgb(23, 69, 69);
+}
+
+td{
+    color: rgb(36, 36, 36);
+}
+
+/*this is how pseudo class is used
+
+img:hover {
+    border-radius: 0%;
+}
+
+*/
+
+/*class selectors are used to add different css to different elements under same tag,
+like to have 2 diff bgcolor to 2 diff images
+specify their class in html file, and then use a '.' in front of the class name
+same classname can be used for more than one elements */
+
+.profilepic {
+    background-color: gold;
+    border-radius: 100%;
+}
+
+/* IDE selector 
+as same as class selector just use '#'
+ide can be used only once, or to identify a single element 
+*/
+
+#heading {
+    color : black;
+} 
